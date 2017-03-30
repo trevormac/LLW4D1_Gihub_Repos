@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewCell.h
 //  Github_Repos
 //
 //  Created by Trevor MacGregor on 2017-03-27.
@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@interface TableViewCell : UITableViewCell
 
-
-@interface ViewController : UIViewController
-
-
+@property (strong, nonatomic) IBOutlet UILabel *cellLabel;
 
 @end
-
